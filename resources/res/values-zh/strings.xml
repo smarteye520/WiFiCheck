@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Cancel">取消</string>
+    <string name="Delete_All">删除选定文件</string>
+    <string name="Loading_data">正在加载数据...</string>
+    <string name="NoFile">没有文件</string>
+    <string name="OK">确定</string>
+    <string name="Resolution">分辨率</string>
+    <string name="Sure_you_want_to_delete">确定要删除选定文件?</string>
+    <string name="Total_files">一共 %d 个文件</string>
+    <string name="app_name">Wifi Check</string>
+    <string name="brow_photos">浏览相片</string>
+    <string name="brow_photos_videos">浏览相片和视频</string>
+    <string name="brow_videos">浏览视频</string>
+    <string name="downloading">正在下载中...</string>
+    <string name="permission_msg">本APP需要读写外部存储权限</string>
+    <string name="warning">警告</string>
+</resources>

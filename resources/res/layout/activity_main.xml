@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="#ff000000" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.joyhonest.wifination.JH_GLSurfaceView android:id="@+id/surfaceView" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <LinearLayout android:orientation="vertical" android:background="#01000000" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <RelativeLayout android:id="@+id/ShutterView" android:background="#60ffffff" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ImageView android:id="@+id/battery_view" android:background="@mipmap/battery_3" android:layout_width="30dp" android:layout_height="15dp" android:layout_marginTop="10dp" android:layout_marginRight="10dp" android:layout_toStartOf="@+id/toolbar"/>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/toolbar" android:layout_width="60dp" android:layout_height="match_parent" android:layout_alignParentRight="true">
+        <Space android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="0.5"/>
+        <Button android:id="@+id/but_photo" android:background="@mipmap/photo_icon" android:layout_width="50dp" android:layout_height="50dp"/>
+        <Space android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+        <Button android:id="@+id/but_video" android:background="@mipmap/video_icon" android:layout_width="50dp" android:layout_height="50dp"/>
+        <Space android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+        <Button android:id="@+id/but_brow" android:background="@mipmap/brow_icon" android:layout_width="50dp" android:layout_height="50dp"/>
+        <Space android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+        <Button android:id="@+id/but_rota" android:background="@mipmap/rota_icon" android:layout_width="50dp" android:layout_height="50dp"/>
+        <Space android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+        <Button android:id="@+id/but_mirr" android:background="@mipmap/mirr_icon" android:layout_width="50dp" android:layout_height="50dp"/>
+        <Space android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+        <Button android:id="@+id/but_setup" android:background="@mipmap/setup_icon" android:layout_width="50dp" android:layout_height="50dp"/>
+        <Space android:id="@+id/space_1" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="0.5"/>
+    </LinearLayout>
+    <TextView android:textSize="20dp" android:textStyle="bold" android:textColor="#ff0000" android:id="@+id/RecTimeView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:text="00:00"/>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/ResolutionSelectView" android:background="@drawable/round_back_select_jh" android:visibility="visible" android:clickable="true" android:layout_width="220dp" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <TextView android:textSize="18dp" android:textColor="#007b8b" android:gravity="center_vertical" android:id="@+id/textView" android:layout_width="wrap_content" android:layout_height="45dp" android:text="@string/Resolution"/>
+        <View android:id="@+id/line1" android:background="#ffffffff" android:layout_width="match_parent" android:layout_height="1dp"/>
+        <Button android:textSize="15dp" android:id="@+id/btn_Resolution480" android:background="#00ffffff" android:layout_width="match_parent" android:layout_height="40dp" android:text="640x480"/>
+        <View android:id="@+id/line2" android:background="#ffffffff" android:layout_width="match_parent" android:layout_height="1dp"/>
+        <Button android:textSize="15dp" android:id="@+id/btn_Resolution720" android:background="#00ffffff" android:layout_width="match_parent" android:layout_height="40dp" android:text="1280x720"/>
+        <View android:id="@+id/line3" android:background="#ffffffff" android:layout_width="match_parent" android:layout_height="1dp"/>
+        <Button android:textSize="15dp" android:id="@+id/btn_Resolution1080" android:background="#00ffffff" android:layout_width="match_parent" android:layout_height="35dp" android:text="1600x1200"/>
+    </LinearLayout>
+</RelativeLayout>

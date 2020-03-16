@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_gravity="center" android:layout_width="100dp" android:layout_height="100dp">
+        <ImageView android:id="@+id/Grid_imageView1" android:layout_width="100dp" android:layout_height="100dp" android:src="@mipmap/background" android:scaleType="centerCrop"/>
+        <ImageView android:id="@+id/video_bg" android:background="@mipmap/video_bg" android:visibility="invisible" android:layout_width="30dp" android:layout_height="30dp" android:scaleType="centerCrop" android:layout_centerHorizontal="true" android:layout_centerVertical="true"/>
+        <ImageView android:id="@+id/image_Select" android:background="@mipmap/selectedflag_no" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginTop="2dp" android:layout_marginRight="4dp" android:layout_alignParentTop="true" android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+    <TextView android:layout_gravity="center" android:id="@+id/Grid_textView1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="New Text"/>
+    <ProgressBar android:layout_gravity="center" android:id="@+id/Grid_progressBar1" android:layout_width="100dp" android:layout_height="10dp" android:max="100" android:progressDrawable="@drawable/progressbar" style="?android:attr/progressBarStyleHorizontal"/>
+    <Space android:layout_width="20px" android:layout_height="20px"/>
+</LinearLayout>
